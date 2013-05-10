@@ -1,0 +1,8 @@
+<%- include header %>
+<link rel="stylesheet" href="../../stylesheets/style.css">
+<p class="info">
+  作者：<a href="/<%= locals.post.name %>"><%= locals.post.name %></a> |
+  日期：<%= locals.post.time.minute %>
+</p>
+<p><%- locals.post.post %></p>
+<%- include footer %>
